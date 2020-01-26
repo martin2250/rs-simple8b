@@ -1,0 +1,18 @@
+[package]
+name = "simple8b"
+version = "0.1.0"
+authors = ["Martin Pittermann <martinp2250@gmail.com>"]
+edition = "2018"
+license = "MIT"
+description = "Pack multiple u64 values into a single u64"
+homepage = "https://github.com/martin2250/rs-simple8b"
+repository = "https://github.com/martin2250/rs-simple8b"
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.2"
+
+[[bench]]
+name = "transcode"
+harness = false
